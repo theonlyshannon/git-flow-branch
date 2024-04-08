@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Login = () => {
     return (
@@ -17,7 +18,7 @@ const Login = () => {
                         </label>
                         <input type="password" placeholder="password" className="input input-bordered" required />
                         <label className="label">
-                            <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
+                            <Link href="/register" className="label-text-alt link link-hover">Does not Have Acc? Register Here</Link>
                         </label>
                     </div>
                     <div className="form-control mt-6">
